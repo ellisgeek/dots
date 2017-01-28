@@ -1,0 +1,6 @@
+[submodule "colors/.colors/base16"]
+	path = colors/.colors/base16
+	url = https://github.com/chriskempson/base16-xresources.git
+[submodule "colors/.colors/Xresources/base16"]
+	path = colors/.colors/Xresources/base16
+	url = https://github.com/chriskempson/base16-xresources.git
