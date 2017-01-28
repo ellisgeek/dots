@@ -70,7 +70,7 @@ XTerm*reverseVideo: on
 XTerm*faceName: Iosevka Nerd Font:size=11:antialias=true
 XTerm*selectToClipboard: true
 
-URxvt.font: "xft:Inconsolata:size=11"
+URxvt.font: xft:Iosevka Nerd Font:size=11:antialias=true
 URxvt.depth: 32
 URxvt*scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
