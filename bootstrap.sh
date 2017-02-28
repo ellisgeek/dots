@@ -13,3 +13,6 @@ stow yaourt
 yaourt -Sy teamviewer urxvt gitkraken google-chrome atom-editor otf-fira-code enpass encfs gnome-encfs-manager fish
 sudo chsh $USER -s /usr/bin/fish
 
+echo 'cd .secure'
+echo 'stow ssh'
+echo 'stow gnupg'
