@@ -1,1 +1,1 @@
-/home/ellisgeek/.local/share/omf/themes/bobthefish/fish_prompt.fish
+/home/ellisgeek/.config/fisherman/bobthefish/fish_prompt.fish

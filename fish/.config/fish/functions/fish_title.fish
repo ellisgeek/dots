@@ -1,0 +1,1 @@
+/home/ellisgeek/.config/fisherman/bobthefish/fish_title.fish

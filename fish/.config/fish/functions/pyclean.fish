@@ -1,0 +1,1 @@
+/home/ellisgeek/.config/fisherman/python/functions/pyclean.fish
