@@ -1,3 +1,7 @@
 [user]
 	name = Elliott Saille
 	email = me@esaille.me
+[core]
+    editor = nano
+[push]
+    default = simple

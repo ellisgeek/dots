@@ -1,0 +1,4 @@
+#!/bin/sh
+xset dpms 600
+
+/opt/urserver/urserver --daemon

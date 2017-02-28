@@ -1,0 +1,9 @@
+[Unit]
+Description=Minimal screen locker with blured desktop screenshot
+
+[Service]
+Type=forking
+ExecStartPre=/usr/bin/scrot /tmp/blurlock.png
+ExecStartPre=/usr/bin/gm convert /tmp/blurlock.png -blur 0x8 /tmp/blurlock.png
+ExecStart=/usr/bin/i3lock -i /tmp/blurlock.png -c 1b1918
+Environment=DISPLAY=:0

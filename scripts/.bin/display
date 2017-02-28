@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export DISPLAY=:0
+export XAUTHORITY=/home/ellisgeek/.Xauthority
+
+INTERNAL="LVDS1"
+EXTERNAL="VGA1"
+
+function connect(){
+    xrandr --output $EXTERNAL --auto --primary --output $INTERNAL --off 
+    notify-send "External Display Connected" "Disabling Laptop Display"
+}
+
+function disconnect(){
+    xrandr --output $EXTERNAL --off --output $INTERNAL --auto
+    notify-send "External Display Disconnected" "Enabling Laptop Display"
+}
+
+xrandr | grep "$EXTERNAL connected" &> /dev/null && connect || disconnect
