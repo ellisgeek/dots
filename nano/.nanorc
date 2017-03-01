@@ -18,5 +18,5 @@ set keycolor blue
 set functioncolor brightblue
 
 ## Load Syntax Highlighting
-include "~/.nano/syntax/*.nanorc"
-#include "/usr/share/nano/*.nanorc"
+#include "~/.nano/syntax/*.nanorc"
+include "/usr/share/nano/*.nanorc"
