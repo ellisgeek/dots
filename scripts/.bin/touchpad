@@ -1,0 +1,11 @@
+#!/bin/bash
+
+list=`xinput --list | egrep -i "mouse|logitech unifying device" | grep -v "PS/2"`
+
+if [ ${#list} -eq 0 ]; then
+    synclient touchpadoff=0
+    notify-send "No USB mouse found" "Your touchpad is set to ON"
+else
+     synclient touchpadoff=1
+     notify-send "USB mouse plugged" "Your touchpad is now turned OFF"
+fi

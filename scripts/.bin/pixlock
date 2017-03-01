@@ -1,0 +1,7 @@
+#!/bin/bash
+#ICON=$HOME/.xlock/icon.png
+PIXLOCKBG=/tmp/pixlock.png
+scrot $PIXLOCKBG
+convert $PIXLOCKBG -scale 20% -scale 500% $PIXLOCKBG
+#convert $PIXLOCKBG $ICON -gravity center -composite -matte $PIXLOCKBG
+i3lock -d -i $PIXLOCKBG
