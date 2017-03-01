@@ -1,0 +1,12 @@
+[Unit]
+Description = X Automatic Locking Daemon (%I minutes)
+
+[Service]
+Type        = simple
+Restart     = always
+RestartSec  = 10
+ExecStart   = /usr/bin/xautolock -locker "systemctl --user restart blurlock.service" -time %I
+ExecReload  = /bin/kill -HUB $MAINPID
+
+[Install]
+WantedBy = user-programs.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=xrdb
+Requires=xorg.target
+After=xorg.target
+Before=dwm.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/xrdb %h/.Xresources
+
+[Install]
+WantedBy=mystuff.target

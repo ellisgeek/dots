@@ -1,0 +1,9 @@
+#!/bin/sh
+
+BLURLOCKBG=/tmp/blurlock.png
+
+scrot $BLURLOCKBG
+
+convert $BLURLOCKBG -blur 0x8 $BLURLOCKBG
+
+i3lock -i $BLURLOCKBG

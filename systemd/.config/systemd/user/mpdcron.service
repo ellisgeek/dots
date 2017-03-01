@@ -1,0 +1,10 @@
+[Unit]
+Description=Cron like daemon for MPD
+After=mpd.service
+
+[Service]
+User=%i
+ExecStart=/usr/bin/mpdcron --no-daemon
+
+[Install]
+WantedBy=user-programs.target

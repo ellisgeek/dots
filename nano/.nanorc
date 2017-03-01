@@ -1,0 +1,22 @@
+set autoindent
+set backup
+set const
+set historylog
+set nowrap
+set poslog
+set smarthome
+set smooth
+set softwrap
+set speller "aspell -x -c"
+set tabsize 4
+set tabstospaces
+set wordbounds
+
+
+## Colors
+set keycolor blue
+set functioncolor brightblue
+
+## Load Syntax Highlighting
+#include "~/.nano/syntax/*.nanorc"
+include "/usr/share/nano/*.nanorc"
