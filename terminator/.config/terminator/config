@@ -1,0 +1,131 @@
+[global_config]
+  title_font = Fira Code 9
+  title_transmit_bg_color = "#2e3436"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 172eb591-e452-49b3-bc82-7ef9f1040994
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 2560, 1387
+      title = ~/.dots
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1273
+      ratio = 0.498238747554
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 691
+      ratio = 0.5
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 641
+      ratio = 0.500390320062
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 172eb591-e452-49b3-bc82-7ef9f1040994
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 5c158a7c-ff71-4765-a741-74492e329f8d
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      title = HTOP
+      type = Terminal
+      uuid = ac00e789-c394-413d-b60e-87b64f6d1a82
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      title = NCMPCPP
+      type = Terminal
+      uuid = a9baaa91-a1ea-48da-8b7f-3b4cd2b1350a
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 172eb591-e452-49b3-bc82-7ef9f1040994
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 2560, 1387
+      title = ~/.dots
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1273
+      ratio = 0.498238747554
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 691
+      ratio = 0.5
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 641
+      ratio = 0.500390320062
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 172eb591-e452-49b3-bc82-7ef9f1040994
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 5c158a7c-ff71-4765-a741-74492e329f8d
+    [[[terminal6]]]
+      command = htop
+      order = 0
+      parent = child5
+      profile = default
+      title = HTOP
+      type = Terminal
+      uuid = ac00e789-c394-413d-b60e-87b64f6d1a82
+    [[[terminal7]]]
+      command = ncmpcpp
+      order = 1
+      parent = child5
+      profile = default
+      title = NCMPCPP
+      type = Terminal
+      uuid = a9baaa91-a1ea-48da-8b7f-3b4cd2b1350a
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    scrollback_infinite = True
+    use_system_font = False
