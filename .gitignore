@@ -2,3 +2,5 @@
 *~
 
 systemd/\.config/systemd/user/user-programs\.target\.wants/
+
+*.log
