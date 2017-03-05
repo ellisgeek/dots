@@ -2,9 +2,11 @@
 Description=Compton Compositor
 
 [Service]
-Type=forking
-ExecStart=/usr/bin/compton -b --config %h/.config/compton.conf
+Type=simple
+ExecStart=/usr/bin/compton --config %h/.config/compton.conf
 Restart=always
 
 [Install]
 WantedBy=user-programs.target
+
+
