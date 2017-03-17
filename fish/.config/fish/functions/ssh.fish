@@ -1,1 +1,0 @@
-/home/ellisgeek/.config/fisherman/ssh/ssh.fish
