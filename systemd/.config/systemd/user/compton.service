@@ -1,0 +1,12 @@
+[Unit]
+Description=Compton Compositor
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/compton --config %h/.config/compton.conf
+Restart=always
+
+[Install]
+WantedBy=user-programs.target
+
+
